@@ -2,41 +2,41 @@
 
 A web-based AI-enabled exam management system that allows admins to create and manage exams while giving users a smooth online exam experience, downloadable reports, and a guidance chatbot.
 
-✨ Features
+   ✨ Features
 
-🔹 Admin Dashboard
+    🔹 Admin Dashboard
 
-Create and manage exam sessions, subjects, and questions.
+      Create and manage exam sessions, subjects, and questions.
 
-View student performance reports.
+      View student performance reports.
 
-Send direct messages to users.
+      Send direct messages to users.
 
-Manage free technical subjects like DSA, AI, ML.
+      Manage free technical subjects like DSA, AI, ML.
 
-🔹 User Dashboard
+    🔹 User Dashboard
 
-Take exams securely and efficiently.
+     Take exams securely and efficiently.
 
-Download detailed exam reports.
+     Download detailed exam reports.
 
-Access free technical subjects.
+     Access free technical subjects.
 
-Interact with a chatbot for guidance.
+     Interact with a chatbot for guidance.
 
-🔹 Report Management
+    🔹 Report Management
 
-Exam reports linked to user accounts for privacy & security.
+      Exam reports linked to user accounts for privacy & security.
 
-Users can view, download, or print past exam reports.
+      Users can view, download, or print past exam reports.
 
-Enables tracking academic progress over time.
+      Enables tracking academic progress over time.
 
-🔹 Contact & Feedback
+    🔹 Contact & Feedback
 
-Contact page for queries and feedback.
+     Contact page for queries and feedback.
 
-Direct message system between users and admins.
+     Direct message system between users and admins.
 
 📂 Project Structure
 
