@@ -1,0 +1,13 @@
+# Node modules
+client/node_modules/
+server/node_modules/
+
+# Build/dist/cache
+client/dist/
+server/dist/
+client/.cache/
+server/.cache/
+
+# OS files
+.DS_Store
+Thumbs.db

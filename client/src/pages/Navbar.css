@@ -1,0 +1,75 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background: linear-gradient(135deg, #ff8a00, #e52e71);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color: white;
+}
+
+/* Brand area */
+.brand {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  position: relative;
+  padding: 5px 0;
+  transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #ffe082;
+}
+
+/* Login Button */
+.btn {
+  background-color: white;
+  color: #e52e71;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffe082;
+  color: #e52e71;
+}
+
+/* Animated selector underline */
+.selector {
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  height: 3px;
+  width: 80px;
+  background: white;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
