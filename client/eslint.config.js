@@ -4,14 +4,15 @@ import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
+
 export default defineConfig([
-  globalIgnores(['dist']),
+  globalIgnores(['dist']), // ignore your build folder
   {
     files: ['**/*.{js,jsx}'],
     extends: [
-      js.configs.recommended,
-      reactHooks.configs['recommended-latest'],
-      reactRefresh.configs.vite,
+      js.configs.recommended,               // base JS rules
+      reactHooks.configs['recommended-latest'], // React hooks rules
+      reactRefresh.configs.vite,            // Vite plugin rules
     ],
     languageOptions: {
       ecmaVersion: 2020,

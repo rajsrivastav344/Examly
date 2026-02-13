@@ -26,15 +26,19 @@ app.use('/api/examinee', require('./routes/examineeRoute'));
 app.use('/api/message', require('./routes/messageRoute'));
 app.use('/api/admindashboard', require('./routes/adminDashboard'));
 
-// Serve React frontend (production)
 if (process.env.NODE_ENV === 'production') {
     const clientDistPath = path.join(__dirname, '../client/dist');
-    app.use(express.static(clientDistPath));
 
+    // Serve static files
+    app.use(express.static(clientDistPath));
+    app.use('/assets', express.static(path.join(clientDistPath, 'assets')));
+
+    // For React Router fallback
     app.get('*', (req, res) => {
         res.sendFile(path.join(clientDistPath, 'index.html'));
     });
 }
+
 
 // Start server
 const PORT = process.env.PORT || 5000;
